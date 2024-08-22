@@ -13,7 +13,7 @@ static String routename='home_screen';
       ),
       body: Stack(
         children: [
-          Image.asset("assets/images/default_bg.png"),
+          Image.asset("assets/images/default_bg.png",fit: BoxFit.fill,),
 
 
 
@@ -26,7 +26,18 @@ static String routename='home_screen';
 
       ) ,
       child: BottomNavigationBar(
-        items: [
+        items: [BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: '1'),
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: '2'),
+
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit),label: '3'),
+
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit),label: '4'),
+
+          BottomNavigationBarItem(icon: Icon(Icons.ac_unit),label: '5'),
+
+
+
+
 
 
         ],
