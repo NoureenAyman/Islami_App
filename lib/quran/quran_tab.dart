@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class quranTab extends StatelessWidget {
+class QuranTab extends StatelessWidget {
 
 static String routename='quran_screen';
   @override
